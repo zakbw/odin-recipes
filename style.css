@@ -1,20 +1,30 @@
 body {
   background-color: rgba(143, 188, 143, 0.555);
-}
-.text {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 18px;
 }
 .header {
     font-size: 66px;
     font-weight: bold;
     text-align: center;
 }
-div {
-    margin: auto;
-    width: 11%;
-    align-items: center;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+  }
+.opener {
+    padding-bottom: 30px;
 }
 button {
     background-color: darkseagreen;
+    border-color: aquamarine;
+    border-width: 3px;
+}
+.secret {
+    font-size: 11px;
+}
+div {
+    padding-top: 500px;    
 }
